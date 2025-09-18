@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <script src="script.js" defer="true"></script>
+  </head>
+  <body>
+    <div class="fact-container">
+      <div class="lang-toggle"></div>
+      <div class="fact-text">
+        <i class="bx bx-fact-left-alt"></i>
+        <span id="fact">Click the Button</span>
+      </div>
+      <div class="source">
+        <span id="source">Random Facts</span>
+      </div>
+      <div class="buttons">
+        <button class="mastodon-btn" id="mastodon" title="Toot this fact">
+          <i class="bxl bx-mastodon"></i>
+        </button>
+        <select name="language" id="language">
+          <option value="de">Deutsch</option>
+          <option value="en">English</option>
+        </select>
+        <button class="new-btn" id="get-fact-btn">New fact</button>
+      </div>
+    </div>
+  </body>
+</html>
